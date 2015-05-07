@@ -1,0 +1,36 @@
+#search-bar {
+    padding: 0 0 20px;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+    margin: 1px;
+    float: left;
+    overflow: hidden;
+}
+.photo img {
+    height: 100%;
+    width: 100%;
+    z-index: 10
+}
+.photo .title {
+    z-index: 20;
+    position: relative;
+    bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 40px;
+}
+.EXIF {
+    clear;
+    both;
+}
+.EXIF div {
+    width: 48%;
+    float: left;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+.photoDetail {
+    width: 100%;
+    padding: 20px 0;
+}
